@@ -1,6 +1,6 @@
 {
   "pm_info": { "name": "Mayukh Ghosh", "role": "Cybersecurity & AI Consultant" },
-  "global_metrics": { "b2b_conversion": "+300%", "paid_subs": "+22%", "waste_reduction": "40%" },
+  "global_metrics": { "mttr_reduction": "-50%", "feature_waste": "40% Saved", "agentic_uplift": "2.5x Efficiency" },
   "domain_config": {
     "industry": "Health-Tech / Cybersecurity",
     "compliance_standards": ["ABDM M2/M3", "OWASP Top 10", "HIPAA"],
