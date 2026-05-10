@@ -20,8 +20,8 @@ Product management and consulting teams frequently operate within a **"Lag Gap,"
 *   **Business Connection (Toggle):** Proves the system's **Domain-Agnostic Portability**. By instantly shifting from a "Cybersecurity" context to a "Health-Tech" context, it demonstrates that the underlying metadata engine can be sold into any vertical with zero hard-coded changes.
 
 ### B. Agent Status & Mission Log
-**What it is:** A persistent panel showing the real-time processing state (idle/pulsing) of the four AI agents, alongside a typewriter-style log detailing their internal "reasoning."
-*   **Business Connection:** Builds **Trust and Transparency**. In high-stakes environments like Healthcare (ABDM) or Enterprise Security, "black-box" AI is a liability. Exposing the continuous "thinking stream" proves to the user exactly *why* a decision is being made.
+**What it is:** A persistent panel showing the real-time processing state (pulsing lights) of the four AI agents, alongside an autonomous, time-sequenced typewriter log.
+*   **Business Connection:** Builds **Trust and Transparency**. By showcasing **A2A (Agent-to-Agent) Orchestration**, the system proves that it isn't just a simple automation script. The agents share memory and explicitly state *why* they are taking action (e.g., self-correcting a "must" to a "will"), making the AI's autonomous decisions auditable and trustworthy for risk-averse enterprise clients.
 
 ### C. Cyber-Signal Radar (The Scout Agent)
 **What it is:** A sidebar listing ingested external events (e.g., "ABDM M3 Data Residency Update"), assigning them an intensity score from 1-10. High-intensity signals trigger a red "Vuln Window" badge.

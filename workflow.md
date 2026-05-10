@@ -42,9 +42,9 @@ graph TD
 *   This file establishes the domain (e.g., Health-Tech), sets the base product roadmap priorities, and defines the specific `judge_rubrics` (e.g., "Clinical Faithfulness", "OWASP Security").
 
 ### 2. Observation (The Scout Agent)
-*   **Trigger:** External market shifts (e.g., a new ABDM regulatory mandate or a competitor's performance dip).
-*   **Action:** The Scout Agent intercepts this data, scores its `intensity` (1-10), and displays it on the interactive **Cyber-Signal Radar**.
-*   **End State:** The signal waits for user interaction (in the prototype) or autonomous processing (in a fully headless deployment).
+*   **Trigger:** User clicks a high-intensity signal (e.g., "ABDM M3 Data Residency Update") on the Radar.
+*   **Action:** This single click initiates the **Autonomous A2A Playback Sequence**. The Scout Agent intercepts this data, pulses its state indicator, and logs its reasoning via the typewriter effect.
+*   **End State:** The internal metronome begins, fully automating the rest of the OODA loop cascade.
 
 ### 3. Orientation & Decision (The Strategist Agent)
 *   **Trigger:** The Scout Agent flags a signal as active/high-priority (e.g., Intensity > 8).
@@ -56,10 +56,11 @@ graph TD
 *   **Action:** The Architect Agent (Vibe Coding engine) begins generating functional technical requirements. It leverages generative AI to output immediate, actionable boilerplate—such as API schemas, mitigation scripts, or zero-trust identity policies.
 *   **End State:** Raw, draft technical code is displayed in the **Vibe-to-Code Accelerator** pane.
 
-### 5. Validation (The Sentinel Agent)
-*   **Trigger:** The Architect Agent completes its code generation.
-*   **Action:** The Sentinel Agent intercepts the draft code. Acting as an "LLM-as-a-Judge," it audits every line of the output against the `judge_rubrics` loaded during Initialization.
-*   **End State:** The terminal displays a scorecard. If the output meets the "will" protocol and passes all domain constraints (e.g., Security Hardening = PASS), the artifact is finalized and ready for human deployment.
+### 5. Validation & Self-Correction (The Sentinel Agent)
+*   **Trigger:** The internal playback timer reaches the audit phase.
+*   **Action:** The massive Terminal Overlay automatically pops open. The Sentinel Agent intercepts the draft code and fails it (highlighting a "must" protocol violation with a Red Health Ring).
+*   **Self-Correction:** The Architect autonomously re-submits the code, replacing "must" with "will". The Sentinel re-audits and scores it PASS (Green Health Ring).
+*   **End State:** The artifact is finalized and ready for human deployment.
 
 ### 6. Value Realization
 *   This entire end-to-end cascade happens in milliseconds, allowing the product team to close the "Execution Gap" faster than competitors, driving immediate B2B conversions and preventing technical waste.

@@ -15,7 +15,11 @@ By hot-swapping this JSON file, the entire application can instantly pivot from 
 
 ## 2. The Multi-Agent Ecosystem (The "Agentic" Core)
 
-The application moves beyond passive dashboards by automating the **OODA loop** (Observe, Orient, Decide, Act) through four specialized, interconnected simulated agents:
+The application moves beyond passive dashboards by automating the **OODA loop** (Observe, Orient, Decide, Act) through a time-sequenced **A2A (Agent-to-Agent) Orchestration** simulation:
+
+### A2A Orchestration & Cinematic Playback
+To demonstrate autonomous capability during pitches, the system utilizes an internal "metronome" (via React `useEffect` hooks). When a signal is detected, the UI sequentially steps through a mock A2A interaction payload. Agent states pulse, the mission log types character-by-character, and the roadmap and terminal automatically react in sync with the agent timeline—proving inter-agent collaboration without manual user input.
+
 
 ### The Scout Agent (Intelligence Ingestion)
 **Role:** The Observer.
