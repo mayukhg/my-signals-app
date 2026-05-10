@@ -1,0 +1,17 @@
+{
+  "pm_info": { "name": "Mayukh Ghosh", "role": "Cybersecurity & AI Consultant" },
+  "global_metrics": { "b2b_conversion": "+300%", "paid_subs": "+22%", "waste_reduction": "40%" },
+  "domain_config": {
+    "industry": "Health-Tech / Cybersecurity",
+    "compliance_standards": ["ABDM M2/M3", "OWASP Top 10", "HIPAA"],
+    "signals": [
+      { "id": "sig-1", "type": "Regulatory", "label": "ABDM M3 Data Residency Update", "intensity": 9, "source": "Gov Gazette" },
+      { "id": "sig-2", "type": "Competitive", "label": "Competitor 'X' App Performance Dip", "intensity": 7, "source": "Social Sentiment" }
+    ],
+    "roadmap": [
+      { "id": "rm-1", "feature": "ABDM Identity Vault (Zero-Trust)", "status": "Priority 1", "logic": "PII/Clinical Decoupling", "basePriority": 1 },
+      { "id": "rm-2", "feature": "Sentinel Audit API", "status": "Priority 2", "logic": "Dual-Model Gemini Validation", "basePriority": 2 }
+    ],
+    "judge_rubrics": ["Clinical Accuracy", "ABDM Terminology", "Will-Protocol Adherence", "Security Hardening"]
+  }
+}
